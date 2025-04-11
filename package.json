@@ -1,0 +1,18 @@
+{
+  "name": "cypress_test",
+  "version": "1.0.0",
+  "description": "Teste do Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:headless": "cypress run --headless",
+    "run": "cypress run",
+    "open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.2.1",
+    "cypress": "^13.6.2"
+  }
+}
